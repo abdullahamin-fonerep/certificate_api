@@ -50,9 +50,7 @@ To use this API, make a request to retrieve certificates for a specified student
 
 ### Example API Request
 
-Replace the placeholders with your Moodle site URL, token, and user ID:
-
-```http
+Replace the placeholders with your Moodle site URL, token, and user ID: http
 http://yourmoodlesite/moodle/webservice/rest/server.php?wstoken=yourtoken&wsfunction=local_certificate_api_get_certificate_url&moodlewsrestformat=json&userid=id
 
 ### Parameters
